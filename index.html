@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="/Imagenes/logo.png" alt="Logo de Alura Latam">
+    </header>
+    <main class="main">
+        <section class="ctr__encriptador">
+            <textarea class="ctr__encriptador__texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <!--
+            <div class="ctr__reglas">
+                <img class="ctr__reglas__imagen" src="/assets/exclamacion.png" alt="Signo de exclamación.">
+                <h6 class="ctr__reglas__mensaje">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            -->
+            <div>
+                <h6 class="ctr__reglas"><img src="./Imagenes/exclamacion.png" alt="Signo de exclamación.">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="ctr__btn">
+                <button class="ctr__btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="ctr__btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="res__encriptador">
+            <textarea class="res__encriptador__mensaje" cols="30" rows="10"></textarea>
+            <div class="res__informativo">
+                <h2 class="res__informativo_mone">Ningún mensaje fue encontrado</h2>
+                <p class="res__informativo_mtwo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div>
+                <button class="res__btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h4>Desarrollado por Ian Ezequiel Collantes Martinez, 27/08/2024</h4>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
