@@ -2,24 +2,24 @@
  
 ---
 
-## ¿En qué consiste?
+## Descripción del Proyecto
 
-Este proyecto es un encriptador y desencriptador de texto. La aplicación permite a los usuarios ingresar texto en una caja de texto, encriptarlo usando un conjunto de reglas y desencriptarlo para recuperar el texto original. También incluye una funcionalidad para copiar el texto encriptado o desencriptado al portapapeles.
+Este proyecto consiste en una herramienta para encriptar y desencriptar textos. Los usuarios pueden ingresar texto en un área designada, aplicarle un algoritmo de cifrado y, posteriormente, revertir el proceso para obtener el texto original. Además, la aplicación ofrece una función para copiar el texto cifrado o descifrado directamente al portapapeles.
 
-- Estado del proyecto
+- Estado Actual
 
-El proyecto está concluido. Las principales funcionalidades han sido sometidos a pruebas para pantallas de escritorio y tablet.
+El desarrollo del proyecto está completado. Las funciones principales han sido verificadas en dispositivos de escritorio y tabletas.
 
-- Demostración de funciones y aplicaciones
+- Funcionalidades Principales
 
-Encriptar Texto: Convierte texto en un formato codificado usando una serie de sustituciones predefinidas.
-Desencriptar Texto: Convierte texto codificado de vuelta a su formato original.
-Copiar Texto: Permite copiar el texto encriptado o desencriptado al portapapeles.
+Cifrar Texto: Transforma el texto en un formato encriptado mediante una serie de sustituciones predefinidas.
+Descifrar Texto: Revierte el texto encriptado a su forma original.
+Copiar Texto: Permite al usuario copiar el texto encriptado o desencriptado al portapapeles.
 
-- Tecnologías utilizadas
+- Tecnologías Empleadas
 
-HTML: Estructura de la página web.
-CSS: Estilos para el diseño de la página.
-JavaScript: Funcionalidades de encriptado y desencriptado.
+HTML: Define la estructura de la página web.
+CSS: Se encarga del diseño y el estilo visual de la página.
+JavaScript: Implementa las funciones de cifrado y descifrado.
 
-No cuenta con licencia, es de uso libre.
+El proyecto no está sujeto a ninguna licencia y es de acceso libre.
